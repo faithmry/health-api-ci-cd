@@ -166,9 +166,9 @@ jobs:
 
 **Screenshot:**
 
-**_Github Actions_**
-![Github Secrets](img/5.png)
 **_Github Secrets_**
+![Github Secrets](img/5.png)
+**_Github Actions_**
 ![Github Actions](img/4.png)
 
 ## Link API
