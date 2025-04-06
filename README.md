@@ -54,6 +54,10 @@ r.Run(":8080")
 go run main.go
 ```
 
+**Screenshot:**
+
+![API Localhost](img/1.png)
+
 ## Docker Image
 
 - Membuat container dengan Docker Multistage.
@@ -97,11 +101,19 @@ docker build -t faithmry/health-api:latest .
 docker run -p 8080:8080 faithmry/health-api:latest
 ```
 
+**Screenshot:**
+
+![API Docker Localhost](img/2.png)
+
 ## Public VPS
 
 - Menggunakan Microsoft Azure.
 - Membuat linux Virtual Machine.
 - SSH ke Virtual Machine tersebut.
+
+**Screenshot:**
+
+![Azure VM](img/6.png)
 
 ## CI/CD
 
@@ -152,9 +164,20 @@ jobs:
 - Membuat Secrets pada Github, untuk `SSH_PRIVATE_KEY`, dsb.
 - Setelah dipush ke Github, Github Actions akan langsung menjalankan CI/CD tersebut dan public API dapat langsung diakses setelah workflow selesai dijalankan.
 
+**Screenshot:**
+
+**_Github Actions_**
+![Github Secrets](img/5.png)
+**_Github Secrets_**
+![Github Actions](img/4.png)
+
 ## Link API
 
 http://20.55.42.178:8080/health
+
+**Screenshot:**
+
+![API Azure VM](img/3.png)
 
 ## Link Docker Image
 
