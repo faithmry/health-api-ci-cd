@@ -17,7 +17,7 @@ func main() {
         location = time.UTC 
     }
 
-    r.GET("/health", func(c *gin.Context) {
+    r.GET("/health-check", func(c *gin.Context) {
         uptime := time.Since(startTime)
 
         days := int(uptime.Hours()) / 24
